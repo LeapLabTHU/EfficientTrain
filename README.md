@@ -12,7 +12,7 @@ This repo is used to release the code and pre-trained models for the EfficientTr
 In this paper, we present a novel curriculum learning approach for the efficient training of visual backbones. Our algorithm, *EfficientTrain*, is simple, general, yet surprisingly effective. For example, it reduces the training time of a wide variety of popular models (e.g., ConvNeXts, DeiT, PVT, and Swin/CSWin Transformers) by more than 1.5× on ImageNet-1K/22K without sacrificing the accuracy. It is effective for self-supervised learning (i.e., MAE) as well.
 
 <p align="center">
-    <img src="./imgs/overview.png" width= "400">
+    <img src="./imgs/overview.png" width= "450">
 </p>
 
 
