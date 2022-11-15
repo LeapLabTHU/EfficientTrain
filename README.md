@@ -2,7 +2,7 @@
 
 This repo is used to release the code and pre-trained models for the EfficientTrain algorithm.
 
-- [EfﬁcientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones]()
+- [EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones]()
 
 **Update on 2022/11/15: Our experiments are conducted on Huawei Cloud. The code and pre-trained models are stored on the servers of Huawei. We are now applying for the permission to make them public. We will release all the code/models as soon as we get the permission.**
 
@@ -19,29 +19,24 @@ In this paper, we present a novel curriculum learning approach for the efficient
 ## Results
 
 - Supervised learning on ImageNet-1K
-
 <p align="center">
     <img src="./imgs/in_1k.png" width= "900">
 </p>
 
 
 - ImageNet-22K pre-training
-
 <p align="center">
     <img src="./imgs/in_22k.png" width= "900">
 </p>
 
 
 - Object detection and instance segmentation on COCO
-
 <p align="center">
     <img src="./imgs/coco.png" width= "450">
 </p>
 
 
-
 - Self-supervised learning results on top of MAE
-
 <p align="center">
     <img src="./imgs/mae.png" width= "450">
 </p>
