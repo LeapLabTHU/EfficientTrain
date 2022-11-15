@@ -30,6 +30,11 @@ In this paper, we present a novel curriculum learning approach for the efficient
 </p>
 
 
+- Supervised learning on ImageNet-1K (varying training epochs)
+<p align="center">
+    <img src="./imgs/vary_epoch.png" width= "450">
+</p>
+
 - Object detection and instance segmentation on COCO
 <p align="center">
     <img src="./imgs/coco.png" width= "450">
