@@ -1,4 +1,4 @@
-# EfficientTrain-Pytorch
+# EfficientTrain-PyTorch
 
 This repo is used to release the code and pre-trained models for the EfficientTrain algorithm.
 
