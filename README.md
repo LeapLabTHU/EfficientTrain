@@ -2,7 +2,7 @@
 
 This repo is used to release the code and pre-trained models for the EfficientTrain algorithm.
 
-- [EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones]()
+- [EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones](https://arxiv.org/abs/2211.09703)
 
 **Update on 2022/11/15: Our experiments are conducted on Huawei Cloud. The code and pre-trained models are stored on the servers of Huawei. We are now applying for the permission to make them public. We will release all the code/models as soon as we get the permission.**
 
