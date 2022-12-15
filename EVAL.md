@@ -1,6 +1,6 @@
 # Pre-trained Models & Evaluation
 
-Here we provide the evaluation instructions and the pre-trained models.
+Here we provide the pre-trained models and the evaluation instructions.
 
 
 ## ImageNet-1K pre-trained models
@@ -33,4 +33,4 @@ This should yield
 ```
 
 - For other models, please change `--model` and `--resume` accordingly. You can get the pre-trained models from the table above. 
-- Setting a model-specific `--drop_path` is not strictly required in evaluation, as the `DropPath` module in `timm` behaves the same during evaluation; but it is required in training. See [ET_training.py](ET_training.py) for the values used for different models.
+- Setting a model-specific `--drop_path` is not strictly required in evaluation, as the `DropPath` module in `timm` behaves the same during evaluation, but it is required in training. See [ET_training.py](ET_training.py) for the values used for different models.

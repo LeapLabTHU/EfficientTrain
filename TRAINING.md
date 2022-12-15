@@ -26,7 +26,7 @@ Please refer to [ConvNeXt](https://github.com/facebookresearch/ConvNeXt/blob/mai
 
 
 ## Object Detection & Instance Segmentation on COCO
-Please refer to [Swin Transformer for Object Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection). The checkpoints obtained from this repo is fully compatible with them. In particular, we give an example for configuring the environments:
+Please refer to [Swin Transformer for Object Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection). The checkpoints obtained from this repo are fully compatible with them. In particular, we give an example for configuring the environments:
 ```
 git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.git swinTxs
 cd swinTxs
