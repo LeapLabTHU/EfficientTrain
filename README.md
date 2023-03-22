@@ -58,7 +58,7 @@ See [EVAL.md](EVAL.md) for the pre-trained models and the evaluation instruction
 </p>
 
 
-### Supervised learning on ImageNet-1K (varying training epochs)
+### Supervised learning on ImageNet-1K (varying training epochs and test input sizes)
 <p align="center">
     <img src="./imgs/vary_epoch.png" width= "450">
 </p>
