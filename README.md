@@ -1,8 +1,8 @@
-# EfficientTrain
+# EfficientTrain (ICCV 2023)
 
 This repo is used to release the code and pre-trained models for the **EfficientTrain** algorithm.
 
-[EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones](https://arxiv.org/abs/2211.09703). \
+[EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones](https://arxiv.org/abs/2211.09703). ICCV 2023. \
 [Yulin Wang](https://www.rainforest-wang.cool/)\*, [Yang Yue](https://github.com/yueyang2000)\*, [Rui Lu](https://scholar.google.com/citations?user=upMvIv4AAAAJ&hl=zh-CN), [Tianjiao Liu](https://www.semanticscholar.org/author/Tianjiao-Liu/2570085), [Zhao Zhong](https://scholar.google.com/citations?user=igtXP_kAAAAJ&hl=en), [Shiji Song](https://scholar.google.com/citations?user=rw6vWdcAAAAJ&hl=zh-CN) and [Gao Huang](http://www.gaohuang.net/)\
 Tsinghua University, Huawei, BAAI\
 [[`arXiv`](https://arxiv.org/abs/2211.09703)]
