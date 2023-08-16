@@ -92,10 +92,10 @@ This repo is mainly developed on the top of [ConvNeXt](https://github.com/facebo
 ## Citation
 If you find this repo helpful, please consider citing us.
 ```bibtex
-@article{wang2022efficienttrain,
+@InProceedings{wang2023efficienttrain,
     title={EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones},
    author={Wang, Yulin and Yue, Yang and Lu, Rui and Liu, Tianjiao and Zhong, Zhao and Song, Shiji and Huang, Gao},
-  journal={arXiv preprint arXiv:2211.09703},
-     year={2022}
+ booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+     year={2023}
 }
 ```
