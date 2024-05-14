@@ -110,4 +110,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 ```
 
 - For other models, please change `--model`, `--finetune`, and `--input_size` accordingly. You can get the pre-trained models from the table above. 
-- For better performance `--drop_path`, `--layer_decay`, and `--model_ema_decay` can be adjusted. In our paper, we determine these hyper-parameters on top of the baseline models, and directly use these obtained configurations for fine-tuning our ImageNet-22K pre-trained models.
+- For better performance, `--drop_path`, `--layer_decay`, and `--model_ema_decay` can be adjusted. In our paper, we determine these hyper-parameters on top of the baseline models, and directly use these obtained configurations for fine-tuning our ImageNet-22K pre-trained models.
