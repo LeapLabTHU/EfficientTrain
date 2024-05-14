@@ -30,7 +30,7 @@ We present a novel curriculum learning approach for the efficient training of fo
 ## Highlights of our work
 - **1.5−3.0×** lossless training or pre-training speedup on ImageNet-1K and ImageNet-22K. Practical efficiency aligns with theoretical performance. Both upstream and downstream performance are not affected.
 - Effective for diverse visual backbones, including ConvNets, isotropic/multi-stage ViTs, and ConvNet-ViT hybrid models. For example, ResNet, ConvNeXt, DeiT, PVT, Swin, CSWin, and CAFormer.
-- Dramatically improving the performance of relatively smaller models (*e.g.*, on ImageNet-1K, DeiT-S: 80.3% -> 81.3%, DeiT-T: 72.5% -> 74.4%)
+- Dramatically improving the performance of relatively smaller models (*e.g.*, on ImageNet-1K, DeiT-S: 80.3% -> 81.3%, DeiT-T: 72.5% -> 74.4%).
 - Superior performance across varying training budgets (*e.g.*, training cost of 0 - 300 epochs or more).
 - Applicable to both supervised learning and self-supervised learning (*e.g.*, MAE).
 - Optional techniques optimized for limited CPU/memory capabilities (*e.g.*, cannot support high data pre-processing speed).
