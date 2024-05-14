@@ -45,7 +45,7 @@ We present a novel curriculum learning approach for the efficient training of fo
 
 
 ## Installation
-We support [Pytorch](https://pytorch.org/)>=2.0.0 and [torchvision](https://pytorch.org/vision/stable/index.html)>=0.15.1. Please install them following the official instructions. 
+We support [PyTorch](https://pytorch.org/)>=2.0.0 and [torchvision](https://pytorch.org/vision/stable/index.html)>=0.15.1. Please install them following the official instructions. 
 
 Clone this repo and install the required packages:
 ```
