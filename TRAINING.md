@@ -3,7 +3,7 @@
 We provide the training commands here.
 
 ## Single-node training: regular condition
-As an example, to train `swin_tiny`, simply run
+As an example, to train `Swin-Tiny`, simply run
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
     python _ET_pp_main_swinT.py \
@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
     _ET_pp_main_convnextS.py
     _ET_pp_main_convnextB.py
 ```
-- The default dataset dictionary is set with `--data_path /home/data/imagenet/` in each script, please modify it if necessary.
+- The default dataset directory is set with `--data_path /home/data/imagenet/` in each script, please modify it if necessary.
 - `--epoch 200` corresponds to a 1.5x speedup compared to the standard 300-epoch training procedure. You may modify it for a varying number of training budgets.
 - The data pre-processing speed of CPUs may be insufficient to support too many GPUs (especially for small models). A larger `--num_workers` (within each script) may alleviate this problem.
 - The hyper-parameters and configurations for training different models follow from their original papers. 
@@ -33,7 +33,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 
 
 ## Single-node training: limited CPU/memory capabilities
-When the capabilities of CPU/memory are insufficient (even though they are fully utilized) to support the data pre-processing requirements of GPUs, you can activate the replay buffer using the scripts with `wReplay`. This technique can reduce the data pre-processing loads exponentially. Take training `deit_small` as an example:
+When the capabilities of CPU/memory are insufficient (even though they are fully utilized) to support the data pre-processing requirements of GPUs, you can activate the replay buffer using the scripts with `wReplay`. This technique can reduce the data pre-processing loads exponentially. Take training `DeiT-Small` as an example:
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
     python _ET_pp_wReplay_main_deitS.py \
