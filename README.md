@@ -123,13 +123,14 @@ If you find this work valuable or use our code in your own research, please cons
         title = {EfficientTrain++: Generalized Curriculum Learning for Efficient Visual Backbone Training},
        author = {Wang, Yulin and Yue, Yang and Lu, Rui and Han, Yizeng and Song, Shiji and Huang, Gao},
       journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-         year = {2024}
+         year = {2024},
+          doi = {10.1109/TPAMI.2024.3401036}
 }
 @inproceedings{wang2023EfficientTrain,
         title = {EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones},
        author = {Wang, Yulin and Yue, Yang and Lu, Rui and Liu, Tianjiao and Zhong, Zhao and Song, Shiji and Huang, Gao},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-         year = {2023},
+         year = {2023}
 }
 
 
