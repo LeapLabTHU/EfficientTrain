@@ -4,10 +4,10 @@ This repo releases the code and pre-trained models of **EfficientTrain++**, an o
 
 
 [TPAMI 2024]
-[EfficientTrain++: Generalized Curriculum Learning for Efficient Visual Backbone Training]() \
+[EfficientTrain++: Generalized Curriculum Learning for Efficient Visual Backbone Training](https://arxiv.org/abs/2405.08768) \
 [Yulin Wang](https://www.wyl.cool/), [Yang Yue](https://github.com/yueyang2000), [Rui Lu](https://scholar.google.com/citations?user=upMvIv4AAAAJ&hl=zh-CN), [Yizeng Han](https://yizenghan.top/), [Shiji Song](https://scholar.google.com/citations?user=rw6vWdcAAAAJ&hl=zh-CN), and [Gao Huang](http://www.gaohuang.net/)\
 Tsinghua University, BAAI\
-[[`arXiv`]()]
+[[`arXiv`](https://arxiv.org/abs/2405.08768)]
 
 [ICCV 2023]
 [EfficientTrain: Exploring Generalized Curriculum Learning for Training Visual Backbones](https://arxiv.org/abs/2211.09703) \
