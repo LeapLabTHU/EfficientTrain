@@ -389,7 +389,8 @@ def main(args):
         print("Assigned values = %s" % str(assigner.values))
 
     if args.distributed:
-        model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu], find_unused_parameters=False)
+        ddp_model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu], find_unused_parameters=False)
+        model = torch.compile(ddp_model, mode="reduce-overhead")
         model_without_ddp = model.module
 
     optimizer = create_optimizer(
@@ -435,7 +436,7 @@ def main(args):
 
     if args.eval:
         print(f"Eval only mode")
-        test_stats = evaluate(data_loader_val, model, device, use_amp=args.use_amp)
+        test_stats = evaluate(data_loader_val, ddp_model, device, use_amp=args.use_amp)
         print(f"Accuracy of the network on {len(dataset_val)} test images: {test_stats['acc1']:.5f}%")
         return
 
@@ -467,7 +468,7 @@ def main(args):
                     args=args, model=model, model_without_ddp=model_without_ddp, optimizer=optimizer,
                     loss_scaler=loss_scaler, epoch=epoch, model_ema=model_ema)
         if data_loader_val is not None:
-            test_stats = evaluate(data_loader_val, model, device, use_amp=args.use_amp)
+            test_stats = evaluate(data_loader_val, ddp_model, device, use_amp=args.use_amp)
             print(f"Accuracy of the model on the {len(dataset_val)} test images: {test_stats['acc1']:.1f}%")
             if max_accuracy < test_stats["acc1"]:
                 max_accuracy = test_stats["acc1"]
